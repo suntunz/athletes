@@ -36,7 +36,7 @@ export const UnderlineStyle = styled.div<{ $underlineColor: string; $underlineTe
         ${device.mobile} {
             height: 4px;
             margin-top: 1px;
-            background: #8f6be8;
+            background: #603ebe;
         }
     }
 `
