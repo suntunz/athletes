@@ -27,7 +27,7 @@ export const StyledPresenterImage = styled.div<{ $imageSrc: IImageSizes; $flexAl
         width: 100%;
         height: 100%;
         background-position: top right;
-        right: 5%;
+        right: 125px;
     `}
 
     ${device.tablet} {
