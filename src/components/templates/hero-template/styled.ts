@@ -24,11 +24,10 @@ export const StyledPresenterImage = styled.div<{ $imageSrc: IImageSizes; $flexAl
         props.$flexAlign === 'flex-start' &&
         `
         top: 0;
-        right: 0px;
         width: 100%;
         height: 100%;
         background-position: top right;
-        right: 5%
+        right: 5%;
     `}
 
     ${device.tablet} {
@@ -40,6 +39,7 @@ export const StyledPresenterImage = styled.div<{ $imageSrc: IImageSizes; $flexAl
             `
             width: 100%;
             background-position: top right;
+            right: 0;
         `}
     }
 
